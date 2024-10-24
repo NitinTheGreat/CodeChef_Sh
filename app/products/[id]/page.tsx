@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Star, ShoppingCart, Heart } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { useToast } from '@/hooks/use-toast'
+import { useToast } from '@/components/ui/use-toast'
 
 interface Product {
   id: number
